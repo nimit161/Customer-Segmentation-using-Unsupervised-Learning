@@ -22,15 +22,58 @@ This project aims to solve this by grouping customers into meaningful segments.
 
 ## 📊 Dataset Description
 
-The dataset includes the following features:
+The dataset contains the following features:
 
-* **CustomerID** – Unique identifier
-* **Gender** – Male/Female
-* **Age** – Customer age
-* **Annual Income (k$)** – Yearly income
-* **Spending Score (1–100)** – Customer spending behavior
+* **Id** – Unique identifier for each individual
 
----
+* **Year_Birth** – Birth year of the individual
+
+* **Education** – Highest level of education attained
+
+* **Marital_Status** – Marital status of the individual
+
+* **Income** – Annual income of the individual
+
+* **Kidhome** – Number of young children in the household
+
+* **Teenhome** – Number of teenagers in the household
+
+* **Dt_Customer** – Date when the customer joined the company
+
+* **Recency** – Number of days since the last interaction or purchase
+
+### 🛍️ Spending Behavior
+
+* **MntWines** – Amount spent on wine
+* **MntFruits** – Amount spent on fruits
+* **MntMeatProducts** – Amount spent on meat products
+* **MntFishProducts** – Amount spent on fish products
+* **MntSweetProducts** – Amount spent on sweet products
+* **MntGoldProds** – Amount spent on gold products
+
+### 🛒 Purchase Behavior
+
+* **NumDealsPurchases** – Number of purchases made using discounts
+* **NumWebPurchases** – Number of purchases made via website
+* **NumCatalogPurchases** – Number of purchases made via catalog
+* **NumStorePurchases** – Number of purchases made in physical stores
+* **NumWebVisitsMonth** – Number of website visits per month
+
+### 📢 Campaign Interaction
+
+* **AcceptedCmp1** – Accepted first marketing campaign (1 = Yes, 0 = No)
+* **AcceptedCmp2** – Accepted second marketing campaign
+* **AcceptedCmp3** – Accepted third marketing campaign
+* **AcceptedCmp4** – Accepted fourth marketing campaign
+* **AcceptedCmp5** – Accepted fifth marketing campaign
+* **Response** – Response to the latest campaign
+
+### ⚠️ Other Information
+
+* **Complain** – Whether the customer has made a complaint (1 = Yes, 0 = No)
+* **Z_CostContact** – Cost associated with contacting a customer (constant)
+* **Z_Revenue** – Revenue generated from a successful campaign (constant)
+
 
 ## ⚙️ Tools & Libraries
 
